@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Judul Halaman</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .header {
+        margin-bottom: 30px;
+      }
+
+      .header h1 {
+        color: #333;
+      }
+
+      .header h2 {
+        color: #666;
+      }
+
+      .content {
+        margin-bottom: 30px;
+      }
+
+      .media {
+        margin-bottom: 20px;
+      }
+
+      .media p {
+        margin-bottom: 10px;
+      }
+
+      .button-container {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .survey-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .survey-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Penjelasan tentang Audio, Video, dan Gambar</h1>
+      </div>
+      <div class="content">
+        <div class="media">
+          <h2>Audio</h2>
+          <p>
+            Audio adalah bentuk media yang menggunakan suara atau bunyi. Audio
+            bisa berupa musik, dialog, efek suara, dan sebagainya. Pada halaman
+            ini, audio digunakan untuk memberikan pengalaman pendengaran kepada
+            pengguna.
+          </p>
+
+          <audio controls>
+            <source src="audio.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+
+        <div class="media">
+          <h2>Video</h2>
+          <p>
+            Video adalah media yang menggabungkan gambar bergerak (frame) dengan
+            audio. Video digunakan untuk menyampaikan informasi, cerita, atau
+            konten visual yang dinamis. Pada halaman ini, video digunakan untuk
+            menggabungkan gambar bergerak dan suara secara bersamaan.
+          </p>
+
+          <video width="400" controls>
+            <source src="video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="media">
+          <h2>Gambar</h2>
+          <p>
+            Gambar adalah representasi visual dari objek atau scene. Gambar
+            dapat membantu menyampaikan informasi atau membuat tampilan halaman
+            lebih menarik. Pada halaman ini, gambar digunakan sebagai elemen
+            visual yang terkait dengan audio dan video yang digunakan.
+          </p>
+          <img src="gambar.jpg" alt="Gambar" />
+        </div>
+      </div>
+
+      <div class="button-container">
+        <a href="survey.html">
+          <button class="survey-button">Button Survey</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
